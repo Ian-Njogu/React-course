@@ -12,6 +12,7 @@ import ParentComponent from "./components/Parent.jsx";
 import Submit from "./components/FormSubmit.jsx";
 import PackingList from "./components/PackingList.jsx";
 import LiveInputDisplay from "./components/display.jsx";
+import Counter from "./components/State.jsx";
 function App() {
 
 
@@ -36,6 +37,7 @@ function App() {
     <Submit/>
     <PackingList/>
     <LiveInputDisplay/> 
+    <Counter/>
     </>
   )
 }

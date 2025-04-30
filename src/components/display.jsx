@@ -3,8 +3,8 @@ import React, { useState } from 'react';
  function LiveInputDisplay() {
   const [inputValue, setInputValue] = useState('');
 
-  const handleChange = (e) => {
-    setInputValue(e.target.value);
+  const handleChange = (text) => {
+    setInputValue(text.target.value);
   };
 
   return (
