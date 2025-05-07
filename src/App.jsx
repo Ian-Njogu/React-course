@@ -26,52 +26,18 @@ import LogIn from "./components/Login.jsx";
 import { UserProvider } from "./components/Context.jsx";
 
 import DashBoard from "./components/Dashboard.jsx";
+import Fetch from "./components/AsyncAwait.jsx";
+import Axios from "./components/Axios.jsx";
+import FetchData from "./components/RickMorty.jsx";
+import CreatePost from "./components/CreatePost.jsx";
 function App() {
 
   
   return (
-   
-  //  <Router>
-  //   <Navbar/>
-  //   <DashBoard/>
-  //   <Routes>
-  //     <Route path= '/' element={<Counters/>}/>
-  //     <Route path= '/Profile' element={<Userprofile/>}/>
-  //     <Route path= '/Form' element={<MultipleFormInput/>}/>
-    
-    
-  //  {/* <h1>Javascript capstone</h1>
-  //  <p>Presentation tomorrow</p> */}
-
-  //   {/* <AnotherComponent/> 
-  //   <MyComponent/>
-  //   <Test1/>
-  //   <Test2/>
-  //   <Test3/> 
-  //   <Greeting/>
-  //   <Drive/>
-  //   <Greetings occupation="Singer"/>
-  //   <Details />
-    
-    
-  //   <Greet name="Ian"/>
-  //   <ParentComponent/>
-  //   <Submit/>
-  //   <PackingList/>
-  //   <LiveInputDisplay/> 
-  //  <Counter/>
-  //   <Login/>
-  //   <Userprofile/>
-  //   <MultipleFormInput/> 
-  //   <UncontrolledForm/> */}
-  //   {/* <Counters/> */}
-    
-  //   </Routes>
-  //   </Router>
-  <UserProvider>
-  <Profile/>
-  <Login/>
-  </UserProvider>
+   <>
+  
+   <CreatePost/>
+  </>
   )
 }
 
